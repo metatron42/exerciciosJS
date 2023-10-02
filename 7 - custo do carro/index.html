@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suco de JS</title>
+</head>
+
+<body>
+    <script src="javascript.js"></script>
+
+    <label for="custoFabrica">Custo de Fábrica:</label>
+    <input type="number" id="custoFabrica" name="custoFabrica"><br><br>
+
+    <label for="percDistribuidor">Percentual do Distribuidor (%):</label>
+    <input type="number" id="percDistribuidor" name="percDistribuidor"><br><br>
+
+    <label for="percImpostos">Percentual de Impostos (%):</label>
+    <input type="number" id="percImpostos" name="percImpostos"><br><br>
+
+    <button onclick="calcularCustoFinal()">Calcular Custo Final</button><br><br>
+
+    <label for="valorFinal">Valor Final:</label>
+    <input type="text" id="valorFinal" name="valorFinal" readonly>
+</body>
+
+</html>
